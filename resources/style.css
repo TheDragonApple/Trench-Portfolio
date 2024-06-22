@@ -1,0 +1,28 @@
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    border-bottom: 1px solid black;
+}
+
+nav{
+    width: 25%;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    padding: 10px;
+    list-style: none;
+    border: solid 2px darkblue;
+    color: white;
+    background-color: darkblue;
+    border-radius: 80px;
+}
