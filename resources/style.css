@@ -4,6 +4,7 @@ html{
 
 h3{
     font-size: 32px;
+    text-align: center;
 }
 
 
@@ -34,22 +35,29 @@ nav li{
 }
 
 #about{
+    background-image: url("./assets/screen-1315650_1280.png");
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #050579;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #050579;
     color: white;
+    display: flex;
 }
 
 #headshot{
     width: 300px;
     height: 300px;
-    border: 1px solid none;
-    border-radius: 12px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-top: 150px;
 }
 
 #about p{
     width: 50%;
+    color: black;
     text-align: center;
     font-weight: bold;
     font-size: 22px;
@@ -57,13 +65,17 @@ nav li{
 
 #skills{
     text-align: center;
+    height: 600px;
 }
 
 #skills-container{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
 }
+
 
 #skills-container p{
     font-weight: bold;
@@ -74,4 +86,10 @@ nav li{
 .logo{
     height: 120px;
     width: 120px;
+}
+
+#projects{
+    background-color: #050579;
+    height: 1000px;
+    color: white;
 }
