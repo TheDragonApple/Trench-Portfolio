@@ -14,7 +14,7 @@ header{
 
 nav{
     width: 100%;
-    visibility: hidden;
+    opacity: 0;
     display: flex; /*change to flex JS*/
     justify-content: space-around;
     align-items: center;
@@ -57,7 +57,7 @@ a{
 }
 
 #headshot{
-    visibility: hidden;
+    opacity: 0;
     width: 300px;
     height: 300px;
     border: 1px solid;
@@ -71,7 +71,7 @@ a{
 }
 
 #about p{
-    visibility: hidden;
+    opacity: 0;
     width: 50%;
     color: black;
     text-align: center;

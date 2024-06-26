@@ -6,7 +6,10 @@ const text = document.getElementById("p-tag");
 
 startButton.addEventListener("click", appear => {
     startButton.style.display = "none";
-    headshot.style.visibility = "visible";
-    nav.style.visibility = "visible";
-    text.style.visibility = "visible";
+    headshot.style.opacity = "1";
+    headshot.style.transition = "opacity 5s";
+    nav.style.opacity = "1";
+    nav.style.transition = "opacity 2s";
+    text.style.opacity = "1";
+    text.style.transition = "opacity 5s";
 });
