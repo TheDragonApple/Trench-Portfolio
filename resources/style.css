@@ -161,6 +161,37 @@ nav li{
     height: 1px;
 }
 
+/*Education*/
+#education{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wneu{
+    height: 100%;
+    width: 100%;
+    padding-left: 4%;
+}
+
+#education-grid-container{
+    width: 60%;
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 16% 5% 70%;
+    grid-template-rows: 100%;
+    grid-column-gap: 2%;
+    justify-items: start;
+    align-items: center;
+}
+
+.line-break{
+    background-color: black;
+    height: 100%;
+    width: 5%;
+}
+
 
 
 
