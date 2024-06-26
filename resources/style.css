@@ -14,7 +14,8 @@ header{
 
 nav{
     width: 100%;
-    display: flex;
+    visibility: hidden;
+    display: flex; /*change to flex JS*/
     justify-content: space-around;
     align-items: center;
     position: absolute;
@@ -56,6 +57,7 @@ a{
 }
 
 #headshot{
+    visibility: hidden;
     width: 300px;
     height: 300px;
     border: 1px solid;
@@ -69,11 +71,25 @@ a{
 }
 
 #about p{
+    visibility: hidden;
     width: 50%;
     color: black;
     text-align: center;
     font-weight: bold;
     font-size: 22px;
+}
+
+#start-button:hover{
+    cursor: pointer;
+    opacity: 0.45;
+}
+
+#start-button{
+    width: 20%;
+    height: 20%;
+    margin-top: 250px;
+    font-size: 32px;
+    border-radius: 20%;
 }
 
 /* Skills section*/
