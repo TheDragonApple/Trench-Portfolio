@@ -1,5 +1,6 @@
 html{
     font-family: Poppins;
+    overflow-x: hidden;
 }
 
 h3{
@@ -113,7 +114,14 @@ a{
 .logo{
     height: 120px;
     width: 120px;
+    opacity: 0.45;
+    transition: opacity 0.5s;
 }
+.logo:hover{
+    cursor:pointer;
+    opacity: 1.0;
+    transition: opacity 0.5s;
+   }
 
 /*Projects*/
 
