@@ -2,33 +2,123 @@
 <html>
     <head>
         <title>Tobias Trench</title>
-        <link rel="stylesheet" src="./resources/style.css">
+        <link rel="stylesheet" href="./resources/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <img>
-            <nav>
+            <nav id="nav-id">
                 <ul>
                     <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Education</li>
-                    <li id="contact">Contact Me</li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="./contact.html">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
-        <section id="About">
-            <img>
-            <p>Hi! I'm Toby Trench, currently a junior at Western New England University studying computer science in order to start my career as a software developer.
+        <section id="about">
+            <button id="start-button">
+                <h2>Click to Start!</h2>
+            </button>
+            <img id="headshot" src="./resources/assets/headshot_cropped.png">
+            <p id="p-tag">Hi! I'm <span id="name">Toby Trench</span>, currently a junior at Western New England University studying computer science in order to start my career as a software developer.
                 I am frequently learning new technologies and skillsets and am always looking for ways to improve myself in all I do.
             </p>
         </section>
-        <section>
-            <h3>Skills</h3>
-            <div id="skills-container">
-                <img>
-                <p>HTML5</p>
+        <section id="skills">
+            <div id="skill-section-wrapper">
+                <div>
+                    <h3>Skills</h3>
+                </div>
+                <div id="skills-container">
+                    <div class="skill">
+                        <img class="logo" src="./resources/assets/html-5_5968267.png">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill">
+                        <img class="logo" src="./resources/assets/css_919826.png">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill">
+                        <img class="logo" src="./resources/assets/js_5968292.png">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill">
+                        <img class="logo" src="./resources/assets/java_226777.png">
+                        <p>Java</p>
+                    </div>
+                    <div class="skill">
+                        <img class="logo" src="resources/assets/python_1822899.png">
+                        <p>Python</p>
+                    </div>
+                    <div class="skill">
+                        <img class="logo" src="./resources/assets/microsoft_732221.png">
+                        <p>Microsoft Windows</p>
+                    </div>
+                </div>
             </div>
         </section>
+        <section id="projects">
+            <div id="project-section-wrapper">
+                <div class="title-wrapper">
+                    <h3>Projects</h3>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h4>Portfolio Site</h4>
+                        <p>Created a personal e-portfolio site to showcase my experience. I utilized HTML to create the page along with CSS for styling and using JS to create
+                            an interactive and enjoyable experience for users visiting my profile
+                        </p>
+                    </div>
+                    <div class="project-pic">
+                        <h5>Tech used: HTML, CSS, JS</h5>
+                        <img class="project-img" src="./resources/assets/placeholder.png">
+                    </div>
+                    <div class="break"></div>
+                    <div class="project-text">
+                        <h4>Portfolio Site</h4>
+                        <p>Created a personal e-portfolio site to showcase my experience. I utilized HTML to create the page along with CSS for styling and using JS to create
+                            an interactive and enjoyable experience for users visiting my profile
+                        </p>
+                    </div>
+                    <div class="project-pic">
+                        <h5>Tech used: HTML, CSS, JS</h5>
+                        <img class="project-img" src="./resources/assets/placeholder.png">
+                    </div>
+                    <div class="break-end"></div>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <h3>Education</h3>
+            <div id="education-grid-container">
+                <div class="box1">
+                    <img id="wneu" src="./resources/assets/wneu_logo.png">
+                </div>
+                <div class="line-break"></div>
+                <div class="box2">
+                    <h4>Western New England University</h4>
+                    <h4>B.S. Computer Science</h4>
+                    <p>Years: 2023-2026</p>
+                    <p>3.9 GPA</p>
+                    <p>2x President's List</p>
+                    <p>Coursework related to OOP and agile software development</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="copyright">
+                <p>Copyright: Toby Trench</p>
+                <p>All images and icons aside from headshot are not my own.</p>
+            </div>
+            <div id="footer-right">
+                <p>Contact Me</p>
+                <p><a href="#about">Send to top</a></p>
+            </div>
+        </footer>
+        <script src="./resources/script.js"></script>
     </body>
 </html>
