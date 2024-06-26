@@ -192,6 +192,35 @@ nav li{
     width: 5%;
 }
 
+/*Footer*/
+
+footer{
+    background-color: #050579;
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-right{
+    display: inline;
+}
+
+#footer-right{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#copyright{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
 
 
 
