@@ -37,6 +37,13 @@ nav li{
     border-radius: 4em;
 }
 
+nav li:hover{
+    background-color: lightslategray;
+    border-color: lightslategray;
+    transition: background-color 100ms;
+    transition: border-color 100ms;
+}
+
 a{
     color: white;
     text-decoration: none;

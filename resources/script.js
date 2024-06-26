@@ -11,5 +11,5 @@ startButton.addEventListener("click", appear => {
     nav.style.opacity = "1";
     nav.style.transition = "opacity 2s";
     text.style.opacity = "1";
-    text.style.transition = "opacity 5s";
+    text.style.transition = "opacity 3s";
 });
