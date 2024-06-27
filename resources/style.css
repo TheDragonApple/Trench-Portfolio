@@ -51,7 +51,7 @@ a{
 
 #about{
     background-image: url("./assets/screen-1315650_1280.png");
-    height: 1100px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -74,16 +74,16 @@ a{
 
 #name{
     color: #050579;
-    font-size: 26px;
+    font-size: 1.6rem;
 }
 
 #about p{
     opacity: 0;
-    width: 50%;
+    width: 40%;
     color: black;
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.2rem;
 }
 
 #start-button:hover{
@@ -96,7 +96,9 @@ a{
     height: 20%;
     margin-top: 250px;
     font-size: 32px;
-    border-radius: 20%;
+    border-radius: 5rem;
+    background-color: black;
+    color: white;
 }
 
 /* Skills section*/
