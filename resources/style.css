@@ -15,7 +15,7 @@ header{
 nav{
     width: 100%;
     opacity: 0;
-    display: flex; /*change to flex JS*/
+    display: flex;
     justify-content: space-around;
     align-items: center;
     position: absolute;
@@ -51,7 +51,7 @@ a{
 
 #about{
     background-image: url("./assets/screen-1315650_1280.png");
-    height: 100vh;
+    height: 1100px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -99,6 +99,23 @@ a{
     border-radius: 5rem;
     background-color: black;
     color: white;
+}
+
+@media only screen and (max-width: 1261px) {
+    #about{
+        background-image: url(./assets/phone-1315649_1280.png);
+        padding: 10%;
+    }
+
+    #start-button{
+        width: 40%;
+        height: 40%;
+        margin-top: 20rem;
+    }
+
+    nav{
+        margin-top: 10%;
+    }
 }
 
 /* Skills section*/
