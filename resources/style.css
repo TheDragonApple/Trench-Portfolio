@@ -118,6 +118,23 @@ a{
     }
 }
 
+@media only screen and (max-width: 820px){
+    #about{
+        background-image: url(./assets/phone-1315649_1280.png);
+        padding: 10%;
+    }
+
+    #start-button{
+        width: 40%;
+        height: 40%;
+        margin-top: 20rem;
+    }
+
+    nav{
+        margin-top: 5%;
+    }
+}
+
 /* Skills section*/
 
 #skills{
