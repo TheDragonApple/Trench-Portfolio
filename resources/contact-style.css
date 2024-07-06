@@ -64,3 +64,14 @@ img:hover{
     opacity: 0.45;
     transform: opacity 0.1s;
 }
+
+@media only screen and (max-width: 800px){
+    #contact-container{
+        width: 12%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
