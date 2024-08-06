@@ -227,6 +227,44 @@ a{
     overflow-y: auto;
 }
 
+.project-img{
+    width: 600px;
+    height: 400px;
+}
+
+.project-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.project-btn{
+    font-size: 1.5rem;
+    padding: 6px;
+    margin: 0 10px;
+    width: 8rem;
+    margin-top: 60px;
+    list-style: none;
+    border: solid 2px black;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 10em;
+}
+
+.project-btn:hover{
+    background-color: lightslategray;
+    border-color: lightslategray;
+    transition: background-color 100ms;
+    transition: border-color 100ms;
+    cursor: pointer;
+}
+
 
 .break{
     height: 50px;
